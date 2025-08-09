@@ -117,50 +117,6 @@ function Stacks() {
                         }
                     </Swiper>
                 </div>
-                <div className='w-full mt-10 px-10'>
-                    <Swiper
-                        spaceBetween={20}
-                        autoplay={{
-                            delay: 2000,
-                            disableOnInteraction: false,
-                        }}
-                        modules={[Navigation, Autoplay]}
-                        className="mySwiper"
-                        breakpoints={{
-                            320: {
-                                slidesPerView: 1,
-                                spaceBetween: 10,
-                            },
-                            640: {
-                                slidesPerView: 2,
-                                spaceBetween: 15,
-                            },
-                            1024: {
-                                slidesPerView: 2,
-                                spaceBetween: 30,
-                            },
-                            1280: {
-                                slidesPerView: 3,
-                                spaceBetween: 80,
-                            },
-                            1440: {
-                                slidesPerView: 4,
-                                spaceBetween: 80,
-                            }
-                        }}
-                    >
-                        {
-                            demoData3?.map((item, index) => (
-                                <SwiperSlide className='flex items-center justify-center'>
-                                    <div className="w-full flex items-center gap-5">
-                                        <img src={item.img} alt="" className='w-fit' />
-                                        <h2 className='text-white text-xl md:text-2xl lg:text-3xl font-medium whitespace-nowrap'>{item.name}</h2>
-                                    </div>
-                                </SwiperSlide>
-                            ))
-                        }
-                    </Swiper>
-                </div>
             </div>
         </div>
     )
@@ -231,17 +187,5 @@ const demoData2 = [
     },
    
 ]
-const demoData3 = [
-  { img: Stacks5, name: 'Tech' },
-  { img: Stacks4, name: 'Media' },
-  { img: Stacks6, name: 'Corp' },
-  { img: Stacks7, name: 'Retail' },
-  { img: Stacks4, name: 'Creative' },
-  { img: Stacks8, name: 'Health' },
-  { img: Stacks6, name: 'Finance' },
-  { img: Stacks5, name: 'Software' },
-  { img: Stacks8, name: 'Wellness' },
-  { img: Stacks7, name: 'Ecom' },
-];
 
 export default Stacks 
