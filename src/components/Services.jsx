@@ -17,7 +17,9 @@ function Services() {
             <div className='px-2 md:px-5 lg:px-14 mt-20 flex items-center text-center flex-col'>
                 {/* for mobile */}
                 <h1 className='font-medium text-2xl md:hidden'>
-                    <span className='flex items-start justify-center'><span><AllStars /></span><span>At Software Chamber, <span className='text-[#a5a5a5]'>we specialize</span> in turning complex challenges into elegant </span></span>
+                    <span className='flex items-start justify-start relative'>
+                        <span className='absolute top-0 left-7'><AllStars /></span>
+                        <span>At Software Chamber, <span className='text-[#a5a5a5]'>we <br /> specialize</span> in turning complex challenges into elegant </span></span>
                     <span className='flex items-center justify-center gap-2 text-[#a5a5a5]'>digital solutions <span><ArrowUp /></span></span>
                 </h1>
                 {/* for desktop */}

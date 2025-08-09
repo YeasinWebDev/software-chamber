@@ -1,3 +1,4 @@
+import Faq from "./components/Faq"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Services from "./components/Services"
@@ -12,6 +13,7 @@ function Home() {
       <Services/>
       <WhyChoose/>
       <Stacks/>
+      <Faq/>
     </div>
   )
 }
