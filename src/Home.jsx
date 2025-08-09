@@ -1,6 +1,7 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Services from "./components/Services"
+import Stacks from "./components/Stacks"
 import WhyChoose from "./components/WhyChoose"
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       <Hero />
       <Services/>
       <WhyChoose/>
+      <Stacks/>
     </div>
   )
 }
