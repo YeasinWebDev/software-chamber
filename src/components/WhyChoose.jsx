@@ -21,7 +21,7 @@ function whyChoose() {
     return (
         <div className='px-2 md:px-5 lg:px-14'>
             <div className='flex items-center justify-center flex-col'>
-                <h2 className='font-medium text-black text-[30px] md:text-[50px] lg:text-[70px] xl:text-[90px] flex items-center justify-center flex-col mt-10 md:leading-16 lg:leading-20'>
+                <h2 className='font-medium text-black text-[30px] md:text-[50px] lg:text-[70px] xl:text-[90px] flex items-center justify-center flex-col lg:mt-10 md:leading-16 lg:leading-20'>
                     Why Choose <span>Software Chamber</span>
                 </h2>
                 <p className='text-[#7f8180] md:w-[60%] xl:w-[40%] text-center py-8'>

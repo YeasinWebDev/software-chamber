@@ -12,9 +12,9 @@ import Earth from '../assets/images/earth.png'
 
 function Services() {
     return (
-        <div className=''>
+        <div>
             {/* top */}
-            <div className='px-2 md:px-5 lg:px-14 mt-20 flex items-center text-center flex-col'>
+            <div className='px-2 md:px-5 lg:px-14 mt-10 md:mt-20 flex items-center text-center flex-col'>
                 {/* for mobile */}
                 <h1 className='font-medium text-2xl md:hidden'>
                     <span className='flex items-start justify-start relative'>
@@ -85,7 +85,7 @@ export default Services
 
 const FeaturedServices = () => {
     return (
-        <div className='my-20 px-2 md:px-5 lg:px-14 mt-20'>
+        <div className=' mb-20 px-2 md:px-5 lg:px-14 mt-0 lg:mt-20'>
             <div className='flex items-center justify-between'>
                 <h2 className='flex items-center justify-center gap-5 font-medium text-[40px] md:text-[60px] lg:text-[80px] xl:text-[100px] 2xl:text-[120px]'>
                     Services

@@ -4,8 +4,8 @@ import Reviewglow from '../assets/images/reviewglow.png'
 function Footer() {
     return (
         <footer className="bg-[#0B0D0F] text-white px-5 md:px-10 lg:px-20 py-14 relative font-outfit overflow-hidden">
-            <img src={Reviewglow} alt="" className='absolute top-0 left-0' />
-            <img src={Reviewglow} alt="" className='absolute bottom-0 right-0 rotate-180' />
+            <img src={Reviewglow} alt="" className='absolute -bottom-10 lg:top-0 left-0' />
+            <img src={Reviewglow} alt="" className='absolute lg:bottom-0 right-0 rotate-180' />
             <h2 className="text-4xl md:text-[56px] lg:text-[86px] xl:text-[106px] 2xl:text-[126px] font-semibold pb-10 font-sans">LET’S TALK</h2>
             <div className="flex flex-col lg:flex-row justify-between gap-10">
 
