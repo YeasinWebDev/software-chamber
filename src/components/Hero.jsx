@@ -4,7 +4,7 @@ import Hero3 from '../assets/images/hero-3.png'
 import Hero5 from '../assets/images/hero-5.png'
 import Small1 from '../assets/images/hero-small-1.png'
 import Small2 from '../assets/images/hero-small-2.png'
-import Badge from './common/badge'
+import Badge from './common/Badge'
 import ContactButton from './common/ContactButton'
 
 function Hero() {
