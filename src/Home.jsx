@@ -1,5 +1,7 @@
 import Faq from "./components/Faq"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
+import LetsTalk from "./components/LetsTalk"
 import Navbar from "./components/Navbar"
 import Review from "./components/Review"
 import Services from "./components/Services"
@@ -16,6 +18,8 @@ function Home() {
       <Stacks/>
       <Faq/>
       <Review/>
+      <LetsTalk/>
+      <Footer/>
     </div>
   )
 }

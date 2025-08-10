@@ -1,5 +1,5 @@
 import React from 'react'
-import Badge from './common/badge'
+import Badge from './common/Badge.jsx'
 import Reviewglow from '../assets/images/reviewglow.png'
 import Reviewglogo from '../assets/images/review-logo.png'
 import Person from '../assets/images/person.jpg'
