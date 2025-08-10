@@ -6,7 +6,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import Background from '../assets/images/services-background.png'
 import BannerGlow from '../assets/images/services-banner-glow.png'
 import BannerGlow2 from '../assets/images/services-banner-glow2.png'
-import Badge from './common/badge'
+import Badge from './common/Badge'
 import ContactButton from './common/ContactButton'
 import Earth from '../assets/images/earth.png'
 
